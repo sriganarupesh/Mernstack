@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<button onclick="manoj()">show me</button>
+	<p id="testmatch"></p>
+</body>
+<script>
+	var num=Number(prompt("Enter a number"));
+	var i;
+	for(i=2;i<num;i++)
+	{
+		if (num%i==0)
+		{
+			break;
+		}
+	}
+	if(i==num)
+	{
+		alert("prime")
+	}
+	else
+	{
+		alert("Not Prime")
+	}
+</script>
+</html>

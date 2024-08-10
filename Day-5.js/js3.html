@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<button onclick="manoj()">Click Me</button>
+	<p id="apple">Do you have gf or not?</p>
+	<script>
+		function manoj() {
+			var a;
+			if(confirm('Tell me your answer?'))
+			{
+				a="yes,Am waiting for gf";
+				else
+				{
+					a="No,Am always solo";
+				}
+				document.getElementById('apple').innerHTML=a;
+			}
+		}
+	</script>
+
+</body>
+</html>

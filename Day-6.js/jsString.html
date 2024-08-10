@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script>
+		let text = "chalapathi engg collage located in guntur";
+		let len = text.length;
+		document.write(len);
+		document.write("<br>");
+		let pos = text.charAt(1);
+		document.write(pos);
+		document.write("<br>");
+		let sli = text.slice(13);
+		document.write(sli);
+		document.write("<br>");
+
+		//substring;
+		let sub = text.substring(7,12);
+		document.write(sub);
+		document.write("<br>");
+
+		//substr;
+		let str = text.substr(8,11);
+		document.write(str);
+		document.write("<br>");
+
+		//trim;
+		let text1 = "     Hello World!     ";
+		let text2 = text1.trim();
+
+		document.getElementById("demo").innerHTML =
+		"Length text1 = " + text1.length + "<br>Length text2 = " + text2.length;
+
+	</script>
+
+</body>
+</html>
