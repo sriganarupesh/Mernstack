@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>JavaScript Form Validation using a sample registration form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+<script src="sprict.js"></script>
+</head>
+
+
+<body onload="document.registration.userid.focus();">
+<h1>Registration Form</h1>
+<div class="container">
+<form name='registration' id="manoj"
+ onSubmit="return formValidation();">
+<ul>
+<li><label for="userid">User id:</label></li>
+<li><input type="text" name="userid"></li>
+
+<li><label for="passid">Password:</label></li>
+<li><input type="password" name="passid"></li>
+
+<li><label for="number">age:</label></li>
+<li><input type="number" name="userage"></li>
+
+<li><label for="address">pincode:</label></li>
+<li><input type="text" name="address"></li>
+
+<li><label for="zip">pannum:</label></li>
+<li><input type="text" name="zip"></li>
+<li><label for="email">Email:</label></li>
+<li><input type="email" name="email"></li>
+
+
+<li><label id="gender">Sex:</label></li>
+<li><input type="radio" name="msex" value="Male" checked/><span>Male</span></li>
+<li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+<li><label>Language:</label></li>
+<li><input type="checkbox" name="en" value="en"  /><span>English</span></li>
+<li><input type="checkbox" name="nonen" value="noen" checked/><span>Non English</span></li>
+<li><label for="desc">About:</label></li>
+<li><textarea name="desc1" id="desc2"></textarea></li>
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+</div>
+</body>
+</html>
