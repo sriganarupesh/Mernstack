@@ -1,0 +1,17 @@
+utf8- Unicode transfer format8(value)-supports all human base languages 
+charset is an attribute
+<!DOCTYPE html> is a 5 th version code of html
+view port is the function of display in the dimensions of devices
+initial-scale=1(1 pixel)
+measurement is clearly on device-width
+meta tag is called as free tag 
+meta does not consists of any closed tags 
+free tags doesnot consists of any closed tags
+meta tag used for describe about website :ex: who is author , dimensions(web page information)
+<pre>-pretag is used for representing as the data given in the input it display as it is with the spaces, but in the <p>the dtaa will be changes with clearing all the spaces.
+<i> - defines the italaic tag of fonts 
+<b> -defines the bold letters
+<sub> - defines the sub as example of hello iam , the iam goes to down state
+<sup>- defines the super with makes the word of power, example the word of hello goes to up
+<strike>- defines the striking of striking 
+<link .rel="sytylesheet" .type="text/css" .href="______.css">code for css link to html code
