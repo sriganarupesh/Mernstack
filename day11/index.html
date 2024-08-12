@@ -1,0 +1,548 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>homework</title>
+	
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+
+<style>
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+</style>
+</head>
+<body>
+    <div class="parallax" style="background-image: url('https://img.freepik.com/premium-photo/abstract-shape-background-geometric-colorful-backdrop-abstract-layout-design_839051-1038.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721606400&semt=ais_user' ); height: 600%; background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;">
+
+	  <nav style="background-color: #007bff; padding: 0.5rem 1rem; display: flex; align-items: center; justify-content: space-between; color: white; position: relative;">
+        <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: 1200px; margin: 0 auto;">
+            <img src="https://bl-i.thgim.com/public/news/46z3x9/article65778776.ece/alternates/FREE_1200/byteXL.JPG" width="100" height="62" alt="Logo" style="max-height: 62px;">
+
+            <button style="display: none; background: none; border: none; color: white; font-size: 24px; cursor: pointer;" onclick="toggleNavbar()">☰</button>
+
+            <div id="navbarNavDropdown" style="display: flex; align-items: center;">
+                <ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-grow: 1; align-items: center;">
+                    <li style="margin-right: 1rem;">
+                        <a href="#" style="color: white; text-decoration: none; padding: 0.5rem 1rem; display: flex; align-items: center;">Home</a>
+                    </li>
+                    <li style="margin-right: 1rem;">
+                        <a href="#" style="color: white; text-decoration: none; padding: 0.5rem 1rem; display: flex; align-items: center;">Features</a>
+                    </li>
+                    <li style="margin-right: 1rem;">
+                        <a href="#" style="color: white; text-decoration: none; padding: 0.5rem 1rem; display: flex; align-items: center;">Pricing</a>
+                    </li>
+                    <li style="position: relative; margin-right: 1rem;">
+                        <a href="#" onclick="toggleDropdown()" style="color: white; text-decoration: none; padding: 0.5rem 1rem; display: flex; align-items: center;">Dropdown link</a>
+                        <ul id="dropdownMenu" style="display: none; position: absolute; background-color: white; color: black; list-style: none; padding: 0; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                            <li><a href="#" style="padding: 0.5rem 1rem; text-decoration: none; color: black; display: block;">Action</a></li>
+                            <li><a href="#" style="padding: 0.5rem 1rem; text-decoration: none; color: black; display: block;">Another action</a></li>
+                            <li><a href="#" style="padding: 0.5rem 1rem; text-decoration: none; color: black; display: block;">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <form style="display: flex; align-items: center;">
+                <input type="search" placeholder="Search" aria-label="Search" style="padding: 0.5rem; border: 1px solid #ced4da; border-radius: 4px;">
+                <button type="submit" style="padding: 0.5rem 1rem; border: none; border-radius: 4px; color: white; background: black; cursor: pointer; margin-left: 0.5rem;">Search</button>
+            </form>
+        </div>
+    </nav>
+   <div class="parallax" style="background-image: url('https://img.freepik.com/premium-photo/abstract-shape-background-geometric-colorful-backdrop-abstract-layout-design_839051-1038.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721606400&semt=ais_user' ); height: 600%; background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;">
+
+  <div class="container-fluid p-5 my-5 text-white" style="background:teal;padding: 30px; margin: 30px 0;">
+	 <div style="max-width: 1200px; margin: 0 auto; padding: 0 15px;">
+        <div style="display: flex; flex-wrap: wrap; margin: -15px;">
+            <div style="flex: 1; padding: 15px;">
+                <h1 style="color: navy; margin: 0.5rem 0;">Transforming Engineering</h1>
+                <h1 style="color: navy; margin: 0.5rem 0;">Colleges in India. Creating</h1>
+                <h1 style="color: navy; margin: 0.5rem 0;">Hope for Students</h1>
+                <hr style="border: none; height: 5px; background: navy;">
+                <h1 style="color: teal; margin: 0.5rem 0;">ghsvdcygevy</h1>
+                <h3 style="margin: 0.5rem 0; color: #333;">By integrating curriculum, content, and practical</h3>
+                <h3 style="margin: 0.5rem 0; color: #333;">learning to enhance students' skills and awareness</h3>
+                <h3 style="margin: 0.5rem 0; color: #333;">on employability</h3>
+                <h4 style="background: teal; color: teal; padding: 0.5rem; margin: 1rem 0; display: inline-block;">SSS</h4>
+                <form>
+                    <button type="submit" style="padding: 10px 20px; border: none; border-radius: 4px; color: whitesmoke; background: black; cursor: pointer; text-align: center; font-size: 1rem;">BRING RECOGNITION TO YOUR COLLEGE</button>
+                </form>
+            </div>
+            <div style="flex: 1; padding: 15px;">
+                <img src="https://cdn.pixabay.com/photo/2021/10/11/04/08/university-6699377_640.jpg" style="max-width: 100%; height: 100%; border-radius: 8px;" alt="University">
+            </div>
+        </div>
+    </div>
+
+  </div>
+ 	  
+    <div style="background: olive; color: white; padding: 30px; margin: 30px 0; text-align: center;">
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+            <div style="flex: 1; max-width: 600px; padding: 20px;">
+                <h2 style="color: navy; margin: 0.5rem 0;">Improving students' learning</h2>
+                <h2 style="color: navy; margin: 0.5rem 0;">ability and skills to increase</h2>
+                <h2 style="margin: 0.5rem 0;">their&nbsp;&nbsp;<b style="color: skyblue;">EMPLOYABILITY</b></h2>
+                <h2 style="margin: 0.5rem 0;"><b style="color: skyblue;">QUOTIENT</b></h2>
+                <hr style="border: none; height: 5px; background: navy; margin: 20px 0;">
+                <p style="text-align: justify; line-height: 1.6;">
+                    In a world where the success of students' college education lies in their chances of getting placed, colleges must move quickly to respond to the expectations of the industry and adopt new ways of imparting teaching and skilling their students. byteXL has the expertise to help colleges leverage technology, learning pedagogy, and teaching methodologies to do just that. Regular Education Timeline Leading To Inadequate Employability byteXL
+                </p>
+            </div>
+            <div style="flex: 1; max-width: 400px; padding: 20px; text-align: left;">
+                <h3 style="margin: 0.5rem 0;">Regular Education Timeline Leading To Inadequate Employability</h3>
+                <img src="https://www.bytexl.com/assets/images/graph1.jpg" height="500" style="max-width: 100%; height: 500px; border-radius: 8px;">
+            </div>
+            <div style="flex: 1; max-width: 400px; padding: 20px; text-align: left;">
+                <h3 style="margin: 0.5rem 0;">byteXL Influenced Education Timeline Leading to Employability</h3>
+                <img src="https://www.bytexl.com/assets/images/graph2.jpg" height="500" style="max-width: 100%; height: 500px; border-radius: 8px;">
+            </div>
+        </div>
+    </div>
+
+ 	  <div class="parallax" style="background-image: url('https://img.freepik.com/premium-photo/abstract-shape-background-geometric-colorful-backdrop-abstract-layout-design_839051-1038.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721606400&semt=ais_user' ); height: 600%; background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;">
+ 	   <div style="background: teal; color: white; padding: 30px; margin: 30px 0;text-align: center;">
+        <h1 style="padding: 0 0px 0px 0px;">PROBLEMS WE ADDRESS</h1>
+        <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; background: whitesmoke; padding: 30px;">
+            <div style="flex: 1; max-width: 300px; height: 100%; padding: 20px; box-sizing: border-box;">
+                <div style="background: white; height: 100%; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                    <a href="#" style="display: block; text-decoration: none; color: inherit; text-align: center;">
+                        <i class="fa fa-envelope-o" aria-hidden="true" style="color: skyblue; font-size: 50px; display: block; margin-bottom: 10px;"></i>
+                        <h5 style="color: skyblue; margin: 10px 0;">Applications</h5>
+                    </a>
+                    <p style="margin: 10px 0;color: black;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div style="flex: 1; max-width: 300px; height: 100%; padding: 20px; box-sizing: border-box;">
+                <div style="background: white; height: 100%; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                    <a href="#" style="display: block; text-decoration: none; color: inherit; text-align: center;">
+                        <i class="fa fa-address-card" aria-hidden="true" style="color: skyblue; font-size: 50px; display: block; margin-bottom: 10px;"></i>
+                        <h5 style="color: skyblue; margin: 10px 0;">Address</h5>
+                    </a>
+                    <p style="margin: 10px 0;color: black;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div style="flex: 1; max-width: 300px; height: 100%; padding: 20px; box-sizing: border-box;">
+                <div style="background: white; height: 100%; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                    <a href="#" style="display: block; text-decoration: none; color: inherit; text-align: center;">
+                        <i class="fa fa-recycle" aria-hidden="true" style="color: skyblue; font-size: 50px; display: block; margin-bottom: 10px;"></i>
+                        <h5 style="color: skyblue; margin: 10px 0;">Returns</h5>
+                    </a>
+                    <p style="margin: 10px 0;color: black; ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div style="flex: 1; max-width: 300px; height: 100%; padding: 20px; box-sizing: border-box;">
+                <div style="background: #33C1FF; height: 100%; padding: 40px 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                    <a href="#" style="display: block; text-decoration: none; color: navy; text-align: center;">
+                        <i class="fa fa-graduation-cap" aria-hidden="true" style="color: skyblue; font-size: 50px; display: block; margin-bottom: 10px;"></i>
+                        <h5 style="color: navy; margin: 10px 0;">TECH-ENABLED LEARNING</h5>
+                    </a>
+                    <p style="margin: 10px 0;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 	 <div class="parallax" style="background-image: url('https://thumbs.dreamstime.com/b/sunrise-dramatic-blue-sky-orange-sun-rays-breaking-clouds-nature-background-hope-concept-110818674.jpg' ); height: 600%; background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;">
+
+ <div style="background: white; height: 40%; padding: 30px; margin: 30px 0;display: flex;">
+        <!-- Column 1 -->
+        <div style="flex: 1; padding-right: 20px;">
+            <img src="https://www.bytexl.com/assets/images/img1.jpg" alt="Skills Image" style="width: 100%; height: auto; border-radius: 8px;">
+        </div>
+        
+        <!-- Column 2 -->
+        <div style="flex: 1; padding-left: 20px;">
+            <h1 style="color: orange;">Our Integrated</h1>
+            <h1 style="color: orange;">Transformation Model</h1>
+            <hr style="border: none; height: 5px; background: navy; margin: 20px 0;">
+            <h1 style="color: white;">Transformation Model</h1>
+            <p style="color: black;">
+                Our integrated college transformation model seeks to empower students, facilitate their growth, and elevate the overall educational experience to meet the challenges of the modern world. 
+                Our integrated college transformation model seeks to empower students, facilitate their growth, and elevate the overall educational experience to meet the challenges of the modern world.  This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a longer card with supporting text.
+            </p>
+            <h2 style="color: white;">Transformation Model</h2>
+            <form>
+                <button type="submit" style="background: #33C1FF; color: black; border: none; border-radius: 5px; padding: 10px 20px; text-align: center; font-size: 16px; cursor: pointer;">
+                    EXPLORE OUR TRANSFORMATION
+                </button>
+            </form>
+        </div>
+    </div>
+
+ 
+	 <div style="background: teal; padding: 30px; margin: 30px 0;">
+        <div style="display: flex; flex-wrap: wrap; align-items: center;">
+            <!-- Card Section -->
+            <div style="flex: 1; max-width:300px; height: 300px; background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px; padding: 15px 100px 0px 0px;">
+                <h1 style="color: navy; margin: 0 0 10px;">WE'LL help develop and deliver your transformation model</h1>
+                <h3 style="margin: 0; color: #333;">
+                    Colleges across India are partnering with us to transform their teaching methodology and learning pedagogy in order to increase the employability quotient of their students.
+                </h3>
+            </div> &nbsp&nbsp&nbsp&nbsp
+
+            <!-- Logos Section -->
+            <div style="flex: 2; display: flex; flex-direction: column;">
+                <div style="display: flex; padding-bottom: 30px;">
+                    <div style="flex: 1; padding-right: 10px;">
+                        <img src="https://www.bytexl.com/assets/images/colleges/005.jpg" alt="Logo 1" style="width: 100%; height: auto; border-radius: 8px;">
+                    </div>
+                    <div style="flex: 1; padding-right: 10px;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQBc6IZd83mRv-HWluGmf6PArtJlZwJZkwHw&s" alt="Logo 2" style="width: 100%; height: 90px; border-radius: 8px;">
+                    </div>
+                    <div style="flex: 1;">
+                        <img src="https://www.bytexl.com/assets/images/colleges/001.jpg" alt="Logo 3" style="width: 100%; height: auto; border-radius: 8px;">
+                    </div>
+                </div>
+                <div style="display: flex; padding-bottom: 30px;">
+                    <div style="flex: 1; padding-right: 10px;">
+                        <img src="https://www.bytexl.com/assets/images/colleges/007.jpg" alt="Logo 4" style="width: 100%; height: auto; border-radius: 8px;">
+                    </div>
+                    <div style="flex: 1; padding-right: 10px;">
+                        <img src="https://www.bytexl.com/assets/images/colleges/008.jpg" alt="Logo 5" style="width: 100%; height: auto; border-radius: 8px;">
+                    </div>
+                    <div style="flex: 1;">
+                        <img src="https://www.bytexl.com/assets/images/colleges/003.jpg" alt="Logo 6" style="width: 100%; height: auto; border-radius: 8px;">
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div style="flex: 1; padding-right: 10px;">
+                        <img src="https://www.bytexl.com/assets/images/colleges/002.jpg" alt="Logo 7" style="width: 100%; height: auto; border-radius: 8px;">
+                    </div>
+                    <div style="flex: 1; padding-right: 10px;">
+                        <img src="https://www.bytexl.com/assets/images/colleges/004.jpg" alt="Logo 8" style="width: 100%; height: auto; border-radius: 8px;">
+                    </div>
+                    <div style="flex: 1;">
+                        <img src="https://www.bytexl.com/assets/images/colleges/009.jpg" alt="Logo 9" style="width: 100%; height: auto; border-radius: 8px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div class="parallax" style="background-image: url('https://img.freepik.com/premium-photo/abstract-shape-background-geometric-colorful-backdrop-abstract-layout-design_839051-1038.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721606400&semt=ais_user' ); height: 600%; background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;">
+
+	
+    <div style="background: white; padding: 30px; text-align: center;">
+        <!-- Heading -->
+        <h1 style="color: orange; margin: 0;">COLLEGE AND STUDENT TESTIMONIALS</h1>
+        <!-- Separator -->
+        <hr style="color: navy; border: none; height: 5px; background: navy; margin: 20px 0;">
+
+        <!-- Subtitle -->
+        <h3 style="color: grey; margin: 10px 0;">Our valuable customers affirm the value of our solution, and customer</h3>
+        <h3 style="color: grey; margin: 10px 0;">satisfaction is our ultimate motto.</h3>
+
+        <!-- Video Container -->
+        <div style="overflow-x: auto; white-space: nowrap; padding: 20px 0;">
+            <!-- Video Elements -->
+            <video src="https://media.istockphoto.com/id/1486742049/video/complex-digital-structure-growing-endlessly-intricate-connection-lines-symbolizing-innovative.mp4?b=1&s=mp4-640x640-is&k=20&c=FZxCEeeoiq_mWwr912asn6mOAJWj8Ns7jsAHp1Cc5XM="
+                style="color: white; padding: 10px; width: 300px; height: auto; display: inline-block;" controls>
+                Your browser does not support the video tag.
+            </video>
+            <video src="https://media.istockphoto.com/id/1368541301/video/fast-flying-bright-blue-light-rays.mp4?b=1&s=mp4-640x640-is&k=20&c=VAWHemT_LfOt2T2Wkelb_vOf2yrFM366qEu6RhctOSI="
+                style="color: white; padding: 10px; width: 300px; height: auto; display: inline-block;" controls>
+                Your browser does not support the video tag.
+            </video>
+            <video src="https://media.istockphoto.com/id/1556389414/video/man-using-a-laptop-double-exposure-with-business-data-analytics-dashboard.mp4?b=1&s=mp4-640x640-is&k=20&c=MIelePhj1lLfbPmk0xqStHIrOflnoYSKzbVWKdAxVj8="
+                style="color: white; padding: 10px; width: 300px; height: auto; display: inline-block;" controls>
+                Your browser does not support the video tag.
+            </video>
+            <video src="https://media.istockphoto.com/id/1136030413/video/engineers-meeting-in-technology-research-laboratory-engineers-scientists-and-developers.mp4?b=1&s=mp4-640x640-is&k=20&c=exeQA6YJtw0dAMTJ-6CKwAv6zXs0OO24QzPlNsCp57c="
+                style="color: white; padding: 10px; width: 300px; height: auto; display: inline-block;" controls>
+                Your browser does not support the video tag.
+            </video>
+            <video src="https://media.istockphoto.com/id/1486742049/video/complex-digital-structure-growing-endlessly-intricate-connection-lines-symbolizing-innovative.mp4?b=1&s=mp4-640x640-is&k=20&c=FZxCEeeoiq_mWwr912asn6mOAJWj8Ns7jsAHp1Cc5XM="
+                style="color: white; padding: 10px; width: 300px; height: auto; display: inline-block;" controls>
+                Your browser does not support the video tag.
+            </video>
+            <video src="https://media.istockphoto.com/id/1368541301/video/fast-flying-bright-blue-light-rays.mp4?b=1&s=mp4-640x640-is&k=20&c=VAWHemT_LfOt2T2Wkelb_vOf2yrFM366qEu6RhctOSI="
+                style="color: white; padding: 10px; width: 300px; height: auto; display: inline-block;" controls>
+                Your browser does not support the video tag.
+            </video>
+            <video src="https://media.istockphoto.com/id/1556389414/video/man-using-a-laptop-double-exposure-with-business-data-analytics-dashboard.mp4?b=1&s=mp4-640x640-is&k=20&c=MIelePhj1lLfbPmk0xqStHIrOflnoYSKzbVWKdAxVj8="
+                style="color: white; padding: 10px; width: 300px; height: auto; display: inline-block;" controls>
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+	 
+	 <div style="background: #007bff; padding: 30px; margin: 30px 0;">
+        <h1 style="color: orange; text-align: center;">SPOTLIGHT</h1>
+        <hr style="border: none; height: 5px; background: white; margin: 20px 0;">
+        <div style="display: flex; justify-content: space-between;">
+            <div style="width: 50%; padding: 0 10px; height: 500px;">
+                <div style="background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); height: 100%; padding: 20px; box-sizing: border-box;">
+                    <img src="https://www.bytexl.com/assets/images/xlerate2.jpg" alt="The XLerate Program" style="width: 100%; height: auto;">
+                    <h1 style="color: orange; text-align: center; margin: 20px 0; font-size: 24px;">The XLerate Program</h1>
+                    <h4 style="text-align: center; color: #333; margin: 10px 0;">Created in partnership with Microsoft India, the program provides students with the right platform and the support system they need to successfully forge a career in tech.</h4>
+                    <form>
+                        <button type="submit" style="background: black; color: whitesmoke; border: none; border-radius: 4px; padding: 10px 20px; cursor: pointer; text-align: center; font-size: 16px; display: block; margin: 20px auto 0;">LEARN MORE</button>
+                    </form>
+                </div>
+            </div>
+            <div style="width: 50%; padding: 0 10px; height: 500px;">
+                <div style="background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); height: 100%; padding: 20px; box-sizing: border-box;">
+                    <img src="https://www.bytexl.com/assets/images/byteXL-Platform.jpg" alt="byteXL Platform" style="width: 100%; height: auto;">
+                    <h1 style="color: orange; text-align: center; margin: 20px 0; font-size: 24px;">byteXL Platform</h1>
+                    <h4 style="text-align: center; color: #333; margin: 10px 0;">Our proprietary platform is equipped with an LMS, academic & skilling content, online editor, student reports, dashboards on individual college performance, and coding challenges.</h4>
+                    <form>
+                        <button type="submit" style="background: black; color: whitesmoke; border: none; border-radius: 4px; padding: 10px 20px; cursor: pointer; text-align: center; font-size: 16px; display: block; margin: 20px auto 0;">LEARN MORE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	 <div style="background: white; padding: 30px; margin: 30px 0;">
+        <h1 style="color: skyblue; text-align: center;">LATEST THINKING</h1>
+        <hr style="border: none; height: 5px; background: navy; margin: 20px 0;">
+        <div id="carousel" style="position: relative; overflow: hidden; width: 100%; display: flex; justify-content: center;">
+            <div id="carousel-inner" style="display: flex; transition: transform 0.5s ease-in-out; width: 100%;">
+                <div class="carousel-item" style="display: flex; justify-content: space-evenly; width: 100%;">
+                    <div class="card" style="width: 18rem; background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden; margin: 10px; text-align: center;">
+                        <img src="https://www.bytexl.com/assets/images/blogs/004.jpg" alt="Blog Post 1" style="width: 100%; height: auto;">
+                        <div class="card-body" style="padding: 20px;">
+                            <form>
+                                <button type="submit" style="background: #33C1FF; color: black; border: none; border-radius: 4px; padding: 10px 20px; cursor: pointer; text-align: center; font-size: 16px; display: block; margin: 20px auto 0;">5-ways-edtech-companies-help-you-land-a-career-in-2022.php</button>
+                            </form>
+                            <h6 style="color: grey; margin: 10px 0;">August 22, 2022</h6>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem; background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden; margin: 10px; text-align: center;">
+                        <img src="https://www.bytexl.com/assets/images/blogs/005.jpg" alt="Blog Post 2" style="width: 100%; height: auto;">
+                        <div class="card-body" style="padding: 20px;">
+                            <form>
+                                <button type="submit" style="background: #33C1FF; color: black; border: none; border-radius: 4px; padding: 10px 20px; cursor: pointer; text-align: center; font-size: 16px; display: block; margin: 20px auto 0;">our-story-why-we-decided-to-partner-with-colleges-to-upskill-youth-in-india.php</button>
+                            </form>
+                            <h6 style="color: grey; margin: 10px 0;">September 16, 2022</h6>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem; background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden; margin: 10px; text-align: center;">
+                        <img src="https://www.bytexl.com/assets/images/blogs/006.jpg" alt="Blog Post 3" style="width: 100%; height: auto;">
+                        <div class="card-body" style="padding: 20px;">
+                            <form>
+                                <button type="submit" style="background: #33C1FF; color: black; border: none; border-radius: 4px; padding: 10px 20px; cursor: pointer; text-align: center; font-size: 16px; display: block; margin: 20px auto 0;">our-mission-to-bring-learning-back-to-colleges-bring-learning-back-to-colleges.php</button>
+                            </form>
+                            <h6 style="color: grey; margin: 10px 0;">October 19, 2022</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="display: flex; justify-content: space-evenly; width: 100%;">
+                    <div class="card" style="width: 18rem; background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden; margin: 10px; text-align: center;">
+                        <img src="https://www.bytexl.com/assets/images/blogs/Opportunities-for-colleges-to-adapt-to-a-fast-changing-tech-world.jpg" alt="Blog Post 4" style="width: 100%; height: auto;">
+                        <div class="card-body" style="padding: 20px;">
+                            <form>
+                                <button type="submit" style="background: #33C1FF; color: black; border: none; border-radius: 4px; padding: 10px 20px; cursor: pointer; text-align: center; font-size: 16px; display: block; margin: 20px auto 0;">Opportunities-for-colleges-to-adapt-to-a-fast-changing-tech-world.php</button>
+                            </form>
+                            <h6 style="color: grey; margin: 10px 0;">August 22, 2022</h6>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem; background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden; margin: 10px; text-align: center;">
+                        <img src="https://www.bytexl.com/assets/images/blogs/002.jpg" alt="Blog Post 5" style="width: 100%; height: auto;">
+                        <div class="card-body" style="padding: 20px;">
+                            <form>
+                                <button type="submit" style="background: #33C1FF; color: black; border: none; border-radius: 4px; padding: 10px 20px; cursor: pointer; text-align: center; font-size: 16px; display: block; margin: 20px auto 0;">our-story-why-we-decided-to-partner-with-colleges-to-upskill-youth-in-india.php</button>
+                            </form>
+                            <h6 style="color: grey; margin: 10px 0;">September 16, 2022</h6>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem; background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden; margin: 10px; text-align: center;">
+                        <img src="https://www.bytexl.com/assets/images/blogs/003.jpg" alt="Blog Post 6" style="width: 100%; height: auto;">
+                        <div class="card-body" style="padding: 20px;">
+                            <form>
+                                <button type="submit" style="background: #33C1FF; color: black; border: none; border-radius: 4px; padding: 10px 20px; cursor: pointer; text-align: center; font-size: 16px; display: block; margin: 20px auto 0;">our-mission-to-bring-learning-back-to-colleges.php</button>
+                            </form>
+                            <h6 style="color: grey; margin: 10px 0;">October 19, 2022</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button onclick="prevSlide()" style="background: rgba(0, 0, 0, 0.5); border: none; border-radius: 50%; color: white; font-size: 24px; line-height: 1; padding: 10px; position: absolute; top: 50%; transform: translateY(-50%); cursor: pointer; left: 10px;">&#10094;</button>
+            <button onclick="nextSlide()" style="background: rgba(0, 0, 0, 0.5); border: none; border-radius: 50%; color: white; font-size: 24px; line-height: 1; padding: 10px; position: absolute; top: 50%; transform: translateY(-50%); cursor: pointer; right: 10px;">&#10095;</button>
+        </div>
+    </div>
+	<div class="container-fluid p-5 my-5 " style="background:teal;">
+		<h1 style="color:skyblue;text-align: center;">IN THE NEWS</h1>
+		<hr style="color:navy;position: relative;border: none;height: 5px;background: navy;">
+
+		<div class="row" style="display:flex;justify-content: space-evenly;">
+			<div class="col"> <img src="https://www.bytexl.com/assets/images/inthenews/TOI.jpg" width="220px" height="200px"> </div>
+			<div class="col"> <img src="https://www.bytexl.com/assets/images/inthenews/Ys.jpg" width="220px" height="200px"> </div>
+			<div class="col"> <img src="https://www.bytexl.com/assets/images/inthenews/Edt.jpg" width="220px" height="200px"> </div>
+			<div class="col">  <img src="https://www.bytexl.com/assets/images/inthenews/CNBC.jpg" width="220px" height="200px"> </div>
+		</div>
+		<h1 style="color:teal;">qbjw</h1>
+
+		<div class="row" style="display:flex;justify-content: space-evenly;">
+			<div class="col"> <img src="https://www.bytexl.com/assets/images/inthenews/ETR.jpg" width="220px" height="200px"> </div>
+			<div class="col"> <img src="https://www.bytexl.com/assets/images/inthenews/INC_42.jpg" width="220px" height="200px"> </div>
+			<div class="col"> <img src="https://www.bytexl.com/assets/images/inthenews/VCC.jpg" width="220px" height="200px"> </div>
+			<div class="col">  <img src="https://www.bytexl.com/assets/images/inthenews/CNN.jpg" width="220px" height="200px"> </div>
+		</div>
+	</div>
+   <div style="background: white; padding: 30px; margin: 30px 0; display: flex; justify-content: space-between; align-items: center;">
+        <div style="flex: 1; padding-right: 20px;">
+            <h1 style="color: navy; margin: 0;">Got questions?</h1>
+            <h1 style="color: navy; margin: 0;">We got the real answers.</h1>
+            <h1 style="color: navy; margin: 0;">Let's connect.</h1>
+            <p style="color: white; margin: 20px 0;">ghsvdcygevy</p>
+            <h2 style="color: grey; margin: 20px 0;">We will answer your questions about how to engage with our transformation model and how to put your college on the path to success!</h2>
+            <p style="color: white; margin: 20px 0;">ghsvdcygevy</p>
+            <form>
+                <button type="submit" style="background: skyblue; color: black; border: none; border-radius: 4px; padding: 10px 20px; cursor: pointer; text-align: center; font-size: 16px; display: block; margin-top: 20px;">CONTACT US</button>
+            </form>
+        </div>
+        <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
+            <img src="https://www.bytexl.com/assets/images/letsConnect.jpg" alt="Connect with Us" style="width: 500px; height: 410px; object-fit: cover;">
+        </div>
+    </div>
+ <div style="background: black; padding: 30px; margin: 30px 0;">
+        <!-- Footer -->
+        <footer style="background: black; color: white; text-align: center;">
+            <!-- Section: Social media -->
+            <section style="padding: 20px 0; border-bottom: 1px solid white;">
+                <div style="display: flex; justify-content: center; align-items: center; color: white;">
+                    <span>Get connected with us on our social networks:</span>
+                </div>
+            </section>
+
+            <!-- Section: Links -->
+            <section style="background: white; padding: 40px 0;">
+                <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
+                    <!-- Grid column -->
+                    <div style="flex: 1; min-width: 200px; margin-bottom: 40px; text-align: center;">
+                        <img src="https://www.bytexl.com/assets/images/logo.png" alt="Logo" style="max-width: 150px; height: auto;">
+                        <p style="margin-top: 20px; color: black;">© 2021 Copyright:
+                            <a href="https://mdbootstrap.com/" style="color: black; text-decoration: none;">BYTEXL.com</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div style="flex: 1; min-width: 200px; margin-bottom: 40px; text-align: center;">
+                        <h5 style="color: orange; margin-bottom: 20px;">sales@bytexl.in</h5>
+                        <p>
+                            <a href="https://www.linkedin.com/" style="color: black; text-decoration: none; margin-right: 10px;">
+                                <i class="fa fa-linkedin-square" style="font-size: 25px; color: grey;"></i>
+                            </a>
+                            <a href="https://twitter.com/" style="color: black; text-decoration: none; margin-right: 10px;">
+                                <i class="fa fa-twitter" style="font-size: 25px; color: grey;"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" style="color: black; text-decoration: none; margin-right: 10px;">
+                                <i class="fa fa-facebook-official" style="font-size: 25px; color: grey;"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" style="color: black; text-decoration: none;">
+                                <i class="fa fa-instagram" style="font-size: 25px; color: grey;"></i>
+                            </a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div style="flex: 1; min-width: 200px; margin-bottom: 40px; text-align: center;">
+                        <h6 style="color: orange; margin-bottom: 20px;">Useful links</h6>
+                        <p><a href="#!" style="color: black; text-decoration: none;">Home</a></p>
+                        <p><a href="#!" style="color: black; text-decoration: none;">Pricing</a></p>
+                        <p><a href="#!" style="color: black; text-decoration: none;">Platform</a></p>
+                        <p><a href="#!" style="color: black; text-decoration: none;">Careers</a></p>
+                        <p><a href="#!" style="color: black; text-decoration: none;">Blogs</a></p>
+                        <p><a href="#!" style="color: black; text-decoration: none;">Settings</a></p>
+                        <p><a href="#!" style="color: black; text-decoration: none;">Help</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div style="flex: 1; min-width: 200px; margin-bottom: 40px; text-align: center;">
+                        <h6 style="color: orange; margin-bottom: 20px;">HEADQUARTERS</h6>
+                        <p style="color: grey; margin: 0;">KP2 Associates Inc.,<br>
+                            4400 State HWY 121,<br>
+                            Suite # 300-0088,<br>
+                            Lewisville, TX 75056 USA
+                        </p>
+                        <p style="color: white; margin: 20px 0;">,dsdcsd,,</p>
+                        <h6 style="color: orange; margin-bottom: 20px;">REGISTERED OFFICE</h6>
+                        <p style="color: grey; margin: 0;">KP2 Associates Inc.,<br>
+                            4400 State HWY 121,<br>
+                            Suite # 300-0088,<br>
+                            Lewisville, TX 75056 USA
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+            </section>
+
+            <!-- Copyright -->
+            <div style="background: white; padding: 20px 0;">
+                <p style="text-align: center; color: black; margin: 0;">Designed by SASHIPAVAN</p>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+
+</body>
+<script>
+function toggleNavbar() {
+            const navbarCollapse = document.getElementById('navbarNavDropdown');
+            navbarCollapse.classList.toggle('show');
+        }
+
+        function toggleDropdown() {
+            const dropdownMenu = document.getElementById('dropdownMenu');
+            dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+        }
+
+        document.addEventListener('click', function(event) {
+            const target = event.target;
+            if (!target.closest('.nav-item.dropdown')) {
+                document.getElementById('dropdownMenu').style.display = 'none';
+            }
+        });
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            const slides = document.querySelectorAll('.carousel-item');
+            const totalSlides = slides.length;
+            if (index >= totalSlides) currentIndex = 0;
+            else if (index < 0) currentIndex = totalSlides - 1;
+            else currentIndex = index;
+
+            const offset = -currentIndex * 100;
+            document.getElementById('carousel-inner').style.transform = `translateX(${offset}%)`;
+        }
+
+        function nextSlide() {
+            showSlide(currentIndex + 1);
+        }
+
+        function prevSlide() {
+            showSlide(currentIndex - 1);
+        }
+
+</script>
+</html>
